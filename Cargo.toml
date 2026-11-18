@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-allegory-inspired-kernel"
+name = "sigmaos-arch-shader-allegory-inspired-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-allegory-inspired-kernel component - Inspired by Arch Linux and Debian"
+description = "Allegory inspired shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-allegory-inspired-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_allegory_inspired_kernel"
+path = "src/lib.rs"
